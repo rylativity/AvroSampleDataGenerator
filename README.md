@@ -13,4 +13,6 @@ and expects the RequestBody to contain a valid AVRO schema string, and a Request
 of sample data objects desired.
 
 ## Example Usage (once application is running locally)
+```
 curl -X POST localhost:8080/generate?numSamples=10 -d "{\"type\": \"record\",\"namespace\": \"com.example\",\"name\": \"FullName\",\"fields\": [{ \"name\": \"first\", \"type\": \"string\" },{ \"name\": \"last\", \"type\": \"string\" }]}" -H "Content-Type: application/json"
+```
