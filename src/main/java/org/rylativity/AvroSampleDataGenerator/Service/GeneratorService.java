@@ -1,6 +1,5 @@
 package org.rylativity.AvroSampleDataGenerator.Service;
 
-import com.google.gson.Gson;
 import org.apache.avro.Schema;
 import org.apache.trevni.avro.RandomData;
 
